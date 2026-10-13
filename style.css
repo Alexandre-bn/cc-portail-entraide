@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 28px 16px; background: #edf4f6; color: #182a39; font-family: Arial, sans-serif; line-height: 1.55; }
+main { max-width: 780px; margin: auto; padding: 28px; background: white; border-radius: 18px; }
+section { margin: 28px 0; padding-top: 12px; border-top: 1px solid #d8e3e6; }
+.eyebrow { color: #126a55; font-weight: bold; }
+button { background: #126a55; color: white; border: none; border-radius: 8px; padding: 12px 18px; margin: 4px; cursor: pointer; font: inherit; }
+button:focus-visible, a:focus-visible { outline: 3px solid #df7c14; outline-offset: 3px; }
+a { color: #126a55; }
+footer { font-size: 0.9rem; }

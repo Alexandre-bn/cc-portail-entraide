@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portail d'entraide A2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <main>
+        <header>
+            <p class="eyebrow">Campus · Démonstration</p>
+            <h1>Portail d'entraide</h1>
+            <p>Préparer son environnement et avancer ensemble.</p>
+        </header>
+
+        <section aria-labelledby="accueil-titre">
+            <h2 id="accueil-titre">Les permanences</h2>
+            <p id="permanence">Permanence le jeudi à 16 h.</p>
+        </section>
+
+        <section aria-labelledby="reservation-titre">
+            <h2 id="reservation-titre">Simuler mes créneaux</h2>
+            <p>Durée d'un créneau : <strong id="duree"></strong> minutes.</p>
+            <button id="ajouter" type="button">Ajouter un créneau</button>
+            <button id="reset" type="button">Recommencer</button>
+            <p id="bilan" aria-live="polite"></p>
+            <p>Aucune inscription réelle : les données restent dans cette page.</p>
+        </section>
+
+        <section aria-labelledby="contact-titre">
+            <h2 id="contact-titre">Une question ?</h2>
+            <p id="contact">Contact : entraide@example.org.</p>
+        </section>
+
+        <footer>Une permanence pour apprendre à s'entraider.</footer>
+    </main>
+</body>
+</html>
